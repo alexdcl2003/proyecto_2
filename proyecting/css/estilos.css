@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 13;
+    padding: 12;
+    background-color: #eaf5f2;
+    background-image: url(https://img.freepik.com/vector-premium/fondo-creativo-casino-varios-elementos-papel_1302-6179.jpg?w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: smaller;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cards {
+    font-size: 225x;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    background-image:linear-gradient(
+        150deg,
+        #e41ad3,
+        #207cd3,
+        #67d351 
+        );
+    color: #100b13;
+    cursor: pointer;
+    transition: .3s;
+    margin: 10px;
+    border-radius: 8px;
+    display:inline;
+}
+
+button:hover {
+    background-color: #cbdbd1;
+}
+
+/* Estilos para las secciones de cartas */
+#playerCards, #dealerCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#playerHand, #dealerHand {
+    background-image:linear-gradient(
+        150deg
+        #7ce41a,
+        #207cd3,
+        #67d351 
+        );
+    cursor: pointer;
+    border: 1px solid #0f0e0e;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fafafa;
+    box-shadow: 2px 4px rgba(1, 13, 14, 0.89);
+}
+
+#playerScore, #dealerScore {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+/* Estilos para el título */
+h1 {
+    background-color: #100b13;
+    border: #207cd3;
+    text-align: center;
+    margin-top: 30px;
+    color: #df1515;
+}
+
+/* Estilos para la sección de resultado */
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    color: #e61c1c;
+}
